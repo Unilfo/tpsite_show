@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about'>
       <div className='about__employer'>
-        <Link to='./employer' className='about__employer_item'>
+        <Link to='tpsite_show/employer' className='about__employer_item'>
             Руководство
         </Link>
       </div>

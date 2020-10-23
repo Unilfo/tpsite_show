@@ -57,7 +57,7 @@ export default () => {
             <div className='slides__body'>{body}</div>
             <div className='slides__footer'>{footer}</div>
             <div className='aki'>
-              <img className='imgg' src={img} alt=""/>
+              <img className='imgg' src={'tpsite_show/'+img} alt=""/>
               <img className='slides__pattern' src="https://www.kret.com/local/templates/kret/img/slider-grid.png" alt=""/>
             </div>
           </a>

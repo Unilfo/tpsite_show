@@ -53,7 +53,7 @@ const NewsList = (data) => {
           <span className="main-news__section">/ {section}</span>
           <div className='text'>{title}</div>
           <span className='image'
-                style={{background: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('http://localhost:3000/${img}')`,
+                style={{background: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('tpsite_show/${img}')`,
                 backgroundSize: 'cover'
                 }}>
           </span>

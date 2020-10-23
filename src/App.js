@@ -23,17 +23,17 @@ function App() {
     <div className="app">
       <Header/>
       <Switch>
-        <Route path="/contacts" component={Contacts} />
-        <Route path="/about" component={About} />
-        <Route path="/cooperation" component={Cooperation} />
-        <Route path="/production" component={Production} />
-        <Route path="/procurement" component={Procurement} />
-        <Route path="/anticorruption" component={Anticorruption} />
-        <Route path="/rent" component={Rent} />
-        <Route exact path="/" component={Sidebar} />
-        <Route path="/news/:id" component={News} />
-        <Route path="/employer" component={Employer} />
-        <Route path="*">
+        <Route path="tpsite_show/contacts" component={Contacts} />
+        <Route path="tpsite_show/about" component={About} />
+        <Route path="tpsite_show/cooperation" component={Cooperation} />
+        <Route path="tpsite_show/production" component={Production} />
+        <Route path="tpsite_show/procurement" component={Procurement} />
+        <Route path="tpsite_show/anticorruption" component={Anticorruption} />
+        <Route path="tpsite_show/rent" component={Rent} />
+        <Route exact path="tpsite_show/" component={Sidebar} />
+        <Route path="tpsite_show/news/:id" component={News} />
+        <Route path="tpsite_show/employer" component={Employer} />
+        <Route path="tpsite_show/*">
           <NoMatch />
         </Route>
       </Switch>

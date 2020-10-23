@@ -59,7 +59,7 @@ export default function Header() {
             </div>
           </div>
           <div className='navbara'>
-            <a className='navbara__logo' href='https://www.kret.com'><img src="/222.png" alt=""/></a>
+            <a className='navbara__logo' href='https://www.kret.com'><img src="tpsite_show/222.jpg" alt=""/></a>
             <div className='navbar__link'>
               <Link to='/about' className='navbar__link__item'>О НАС</Link>
               <Link to='/production' className='navbar__link__item'>ПРОДУКЦИЯ</Link>
