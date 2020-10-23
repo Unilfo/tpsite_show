@@ -22,7 +22,7 @@ export default function Footer() {
                 {/*  <Link to='/about' href="">О Техприбор</Link>*/}
                 {/*</li>*/}
                 <li>
-                  <Link to='/employer'>Руководство</Link>
+                  <Link to='/tpsite_show/employer'>Руководство</Link>
                 </li>
               </ul>
             </li>
@@ -46,7 +46,7 @@ export default function Footer() {
               {/*</ul>*/}
             </li>
             <li className='top-menu__li_main'>
-              <Link to='/cooperation'className='top-menu__href_main'>Сотрудничество</Link>
+              <Link to='/tpsite_show/cooperation'className='top-menu__href_main'>Сотрудничество</Link>
               {/*<ul className='top-menu__ul_inner'>*/}
               {/*  <li>*/}
               {/*    <Link to='/about'>Заказать</Link>*/}

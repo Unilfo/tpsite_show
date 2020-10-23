@@ -21,7 +21,7 @@ export default function Employer() {
           {data.map(({name, family, img, key, position})  =>
               <a className="directors-list__item" id="bx_3218110189_791" href="#" key={key}>
                 <span className="directors-list__picture">
-                  <img className="directors-list__img" src={'tpsite_show/'+img} alt="" title={family}/>
+                  <img className="directors-list__img" src={img} alt="" title={family}/>
                   </span><span className="directors-list__name">{family} {name}</span>
                 <span className="directors-list__position">{position}</span>
               </a>

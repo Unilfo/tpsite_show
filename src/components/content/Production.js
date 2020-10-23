@@ -7,7 +7,7 @@ function Production() {
     <div className='production'>
       <CardGroup>
         <Card className='production__card'>
-          <Card.Img variant="top" src="tpsite_show/2.png" />
+          <Card.Img variant="top" src="2.png" />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -20,7 +20,7 @@ function Production() {
           </Card.Footer>
         </Card>
         <Card className='production__card'>
-          <Card.Img variant="top" src="tpsite_show/2.png" />
+          <Card.Img variant="top" src="2.png" />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -33,7 +33,7 @@ function Production() {
           </Card.Footer>
         </Card>
         <Card className='production__card'>
-          <Card.Img variant="top" src="tpsite_show/2.png" />
+          <Card.Img variant="top" src="2.png" />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>

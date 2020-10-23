@@ -48,12 +48,12 @@ const NewsList = (data) => {
   const listItems = data.news.map(({title, key, img, section}) =>
     <li
       className='sidebar__list__item' key={key}>
-      <a href={`/news/${key}`} className='main__inner'>
+      <a href={`/tpsite_show/news/${key}`} className='main__inner'>
         <div className='overlay'>
           <span className="main-news__section">/ {section}</span>
           <div className='text'>{title}</div>
           <span className='image'
-                style={{background: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('tpsite_show/${img}')`,
+                style={{background: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('${img}')`,
                 backgroundSize: 'cover'
                 }}>
           </span>
