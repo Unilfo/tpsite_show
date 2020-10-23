@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tpsite_modules/static/css/main.41d92ca1.chunk.css",
+    "main.js": "/tpsite_modules/static/js/main.7fdd7070.chunk.js",
+    "main.js.map": "/tpsite_modules/static/js/main.7fdd7070.chunk.js.map",
+    "runtime-main.js": "/tpsite_modules/static/js/runtime-main.711857a9.js",
+    "runtime-main.js.map": "/tpsite_modules/static/js/runtime-main.711857a9.js.map",
+    "static/css/2.156c132a.chunk.css": "/tpsite_modules/static/css/2.156c132a.chunk.css",
+    "static/js/2.f94001f6.chunk.js": "/tpsite_modules/static/js/2.f94001f6.chunk.js",
+    "static/js/2.f94001f6.chunk.js.map": "/tpsite_modules/static/js/2.f94001f6.chunk.js.map",
+    "index.html": "/tpsite_modules/index.html",
+    "precache-manifest.cc9a2186c92550823e86a125ab168fcf.js": "/tpsite_modules/precache-manifest.cc9a2186c92550823e86a125ab168fcf.js",
+    "service-worker.js": "/tpsite_modules/service-worker.js",
+    "static/css/2.156c132a.chunk.css.map": "/tpsite_modules/static/css/2.156c132a.chunk.css.map",
+    "static/css/main.41d92ca1.chunk.css.map": "/tpsite_modules/static/css/main.41d92ca1.chunk.css.map",
+    "static/js/2.f94001f6.chunk.js.LICENSE.txt": "/tpsite_modules/static/js/2.f94001f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.711857a9.js",
+    "static/css/2.156c132a.chunk.css",
+    "static/js/2.f94001f6.chunk.js",
+    "static/css/main.41d92ca1.chunk.css",
+    "static/js/main.7fdd7070.chunk.js"
+  ]
+}
