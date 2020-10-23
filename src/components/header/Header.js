@@ -59,13 +59,13 @@ export default function Header() {
             </div>
           </div>
           <div className='navbara'>
-            <a className='navbara__logo' href='https://www.kret.com'><img src="tpsite_show/222.jpg" alt=""/></a>
+            <a className='navbara__logo' href='https://unilfo.github.io/tpsite_show/'><img src="222.jpg" alt=""/></a>
             <div className='navbar__link'>
-              <Link to='/about' className='navbar__link__item'>О НАС</Link>
-              <Link to='/production' className='navbar__link__item'>ПРОДУКЦИЯ</Link>
-              <Link to='/' className='navbar__link__item'>НОВОСТИ</Link>
-              <Link to='/cooperation' className='navbar__link__item'>СОТРУДНИЧЕСТВО</Link>
-              <Link to='/contacts' className='navbar__link__item'>КОНТАКТЫ</Link>
+              <Link to='/tpsite_show/about' className='navbar__link__item'>О НАС</Link>
+              <Link to='/tpsite_show/production' className='navbar__link__item'>ПРОДУКЦИЯ</Link>
+              <Link to='/tpsite_show/' className='navbar__link__item'>НОВОСТИ</Link>
+              <Link to='/tpsite_show/cooperation' className='navbar__link__item'>СОТРУДНИЧЕСТВО</Link>
+              <Link to='/tpsite_show/contacts' className='navbar__link__item'>КОНТАКТЫ</Link>
             </div>
           </div>
         </div>
