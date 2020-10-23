@@ -48,7 +48,7 @@ const NewsList = (data) => {
   const listItems = data.news.map(({title, key, img, section}) =>
     <li
       className='sidebar__list__item' key={key}>
-      <a href={'https://unilfo.github.io/tpsite_show/news/'${key}} className='main__inner'>
+      <a href={`https://unilfo.github.io/tpsite_show/news/${key}`} className='main__inner'>
         <div className='overlay'>
           <span className="main-news__section">/ {section}</span>
           <div className='text'>{title}</div>
