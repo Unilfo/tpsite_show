@@ -1,0 +1,13 @@
+.production{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: 31px auto 84px;
+}
+.production__card{
+  margin-right: 40px;
+  border: 1px solid rgba(0,0,0,.125)!important;
+  padding-top: 5px;
+}

@@ -1,0 +1,47 @@
+.about{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.about__text{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 60%;
+  margin: 7px auto;
+  padding: 20px 140px 10px;
+}
+.about__content{
+  margin-top: 10px;
+}
+.about__footer{
+  margin-top: 10px;
+}
+p{
+  font-size: 16px;
+  color: #34363c;
+}
+.about__employer{
+  width: 35%;
+  flex: none;
+  background-color: #000;
+}
+.about__employer_item{
+  font-size: 22px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.5em;
+  color: #fff;
+  position: relative;
+  transition: 0.2s;
+  border-bottom: 1px solid #fff;
+
+  &:hover{
+    background-color: #2c2c2c;
+    text-decoration: none;
+    color: #fff!important;
+  }
+}
+
